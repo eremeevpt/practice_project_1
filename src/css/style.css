@@ -4,8 +4,8 @@
 a:link {
     text-decoration: none;
 }
-header {
-    width: 1922px;
+nav {
+    width: 100%;
     height: 53px;
     background-color: #3f3f3f;
 }
@@ -24,4 +24,13 @@ header {
     color: #ffffff;
     font-size: 15px;
     font-weight: 300;
+}
+.subheader
+{
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background: rgba(0, 0, 0, .6) /* если поставить opacity,
+    то все элементы в этом блоке (номер телефона) будут 
+    с прозрачностью*/
 }
