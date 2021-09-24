@@ -18,7 +18,7 @@ nav {
 }
 .menu .menu_item {
     border-right: 2px dotted black;
-    padding-right: 2vw;
+    padding: 0 2.6vw 0 2.6vw;
 }
 .menu .menu_link {
     color: #ffffff;
