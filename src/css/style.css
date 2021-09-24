@@ -73,3 +73,7 @@ nav {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.promo {
+    min-height: 799px;
+    background: url('../img/uber_bg.jpg') center center/cover no-repeat;
+}
