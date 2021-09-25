@@ -96,3 +96,24 @@ nav {
     line-height: 36px;
     margin: 22px 0 0 0;
 }
+.promo .promo_par1, .promo_par2 {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF; 
+}
+.promo .promo_btn {
+    display: block;
+    margin: 116px auto 0 auto;
+    border: none;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
