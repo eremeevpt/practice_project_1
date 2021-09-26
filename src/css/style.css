@@ -120,3 +120,23 @@ nav {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.advantages .adv_intro {
+    margin: 20px auto 0px auto;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+}
+.advantages .adv_header {
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
