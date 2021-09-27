@@ -134,6 +134,7 @@ nav {
 }
 .advantages .adv_header {
     margin-top: 32px;
+    margin-bottom: 0px;
     font-weight: 700;
     font-size: 38px;
     text-align: center;
@@ -146,6 +147,7 @@ nav {
 .advantages .adv_list_item {
     display: flex;
     align-items: center;
+    margin: 14px 0px 14px 0px;
 }
 .advantages .adv_circle {
     display: flex;
