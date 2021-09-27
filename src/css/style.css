@@ -144,16 +144,29 @@ nav {
     list-style-type: none;
 }
 .advantages .adv_list_item {
-    
+    display: flex;
+    align-items: center;
 }
 .advantages .adv_circle {
+    display: flex;
+    justify-content: center;
     width: 116px;
     height: 116px;
     background: #1EACC7;
     border-radius: 100%;
+    margin: auto 0 auto 33px;
+}
+.advantages .adv_li_text {
+    display: inline-block;
+    max-width: 371px;
+    max-height: 170px;
+    margin-left: 25px;
 }
 .advantages .adv_li_subheader {
     font-weight: normal;
     font-size: 17px;
     color: #1EACC7;
+}
+.advantages .reason {
+    align-self: center;
 }
