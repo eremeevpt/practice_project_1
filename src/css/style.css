@@ -140,3 +140,20 @@ nav {
     text-transform: uppercase;
     color: #222222;
 }
+.advantages .adv_list {
+    list-style-type: none;
+}
+.advantages .adv_list_item {
+    
+}
+.advantages .adv_circle {
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+}
+.advantages .adv_li_subheader {
+    font-weight: normal;
+    font-size: 17px;
+    color: #1EACC7;
+}
