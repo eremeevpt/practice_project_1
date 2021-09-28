@@ -143,6 +143,7 @@ nav {
 }
 .advantages .adv_list {
     list-style-type: none;
+    margin-bottom: 64px;
 }
 .advantages .adv_list_item {
     display: flex;
