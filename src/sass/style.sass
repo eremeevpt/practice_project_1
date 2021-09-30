@@ -1,5 +1,10 @@
 $main_color: #1EACC7
 
+=btn_hover
+    &:hover
+        background-image: none
+        background-color: $main_color
+
 *
   font-family: 'Roboto', sans-serif
 
@@ -74,6 +79,7 @@ nav
     font-size: 14px
     text-transform: uppercase
     color: #FFFFFF
+    @include btn_hover
 
 .promo
   min-height: 799px
@@ -125,6 +131,7 @@ nav
   font-size: 18px
   text-transform: uppercase
   color: #FFFFFF
+  @include btn_hover
 
 .label
     margin: 20px auto 0px auto
