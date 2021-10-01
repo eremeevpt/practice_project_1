@@ -233,6 +233,20 @@ nav
             background: #000000
             border-radius: 100%
             cursor: pointer
+            &:before
+              position: absolute
+              display: block
+              content: ''
+              width: 14px
+              height: 2px
+              background-color: $main-color
+            &:after
+              position: absolute
+              display: block
+              content: ''
+              width: 2px
+              height: 14px
+              background-color: $main-color
         &_1
             background: url('../img/Card_1.png') center (center / cover) no-repeat
         &_2
