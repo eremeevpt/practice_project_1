@@ -240,6 +240,7 @@ nav
               width: 14px
               height: 2px
               background-color: $main-color
+              transition: 0.5s
             &:after
               position: absolute
               display: block
@@ -247,6 +248,10 @@ nav
               width: 2px
               height: 14px
               background-color: $main-color
+              transition: 0.5s
+            &:hover
+              &::before, &::after
+                background-color: #fff
         &_1
             background: url('../img/Card_1.png') center (center / cover) no-repeat
         &_2
