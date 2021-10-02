@@ -348,13 +348,14 @@ footer
       height: 7px
       background: $main_color
   .row_bottom
-    > div
-      width: 33%
-      margin-top: 30px
+    margin-top: 30px
+    display: flex
+    justify-content: space-between
+    padding: 0 56px 0 56px
     .social_links
+      width: 33%
       display: flex
       justify-content: start
-      margin-left: 56px
       > a
         width: 35px
         height: 35px
@@ -364,8 +365,36 @@ footer
         border-radius: 100%
         > img
           margin: auto
-        
-
+    .inside_links
+      width: 33%
+      ul
+        list-style: none
+        padding: 0
+        text-align: center
+        li
+          display: inline-block
+      &_top
+        a
+          margin: 0 10px 0 10px
+          font-weight: 300
+          font-size: 15px
+          text-transform: uppercase
+          color: #070716
+      &_middle
+        a
+          margin: 10px 5px 0 5px
+          font-weight: 300
+          font-size: 11px
+          text-transform: uppercase
+          color: #999999
+      &_language
+        a
+          font-weight: normal
+          font-size: 11px
+          text-transform: uppercase
+          color: $main_color
+    .download_links
+      width: 33%
           
 
 
