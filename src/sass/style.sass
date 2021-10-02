@@ -308,6 +308,20 @@ nav
     color: #222222
     li
       margin-bottom: 10px
+      position: relative
+      &::before
+        content: ""
+        display: block
+        position: absolute
+        left: -32px
+        top: 50%
+        transform: translateY(-50%)
+        width: 21px
+        height: 20px
+        background: url('../icons/green_tick.png') center (center / cover) no-repeat
+    &_bottom li 
+      &::before
+        background: url('../icons/red_tick.png') center (center / cover) no-repeat
   &_descr
     font-weight: 300
     font-size: 17px
