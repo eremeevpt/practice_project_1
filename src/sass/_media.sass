@@ -1,9 +1,9 @@
 @media (max-width: 1400px)
     .menu
-        .menu_item
+        &_item
             padding: 0 1.8vw 0 1.8vw
             height: 21px
-        .menu_link
+        &_link
             font-size: 15px 
     .promo
         &_header
@@ -18,10 +18,10 @@
                     max-width: 330px
 @media (max-width: 1200px) 
     .menu
-        .menu_item
+        &_item
             padding: 0 1.3vw 0 1.3vw
             height: 18px
-        .menu_link
+        &_link
             font-size: 13px 
     .promo
         &_header
@@ -36,10 +36,10 @@
                     max-width: 220px
 @media (max-width: 992px)
     .menu
-        .menu_item
+        &_item
             padding: 0 0.5vw 0 0.5vw
             height: 15px
-        .menu_link
+        &_link
             font-size: 11px 
     .subheader
         &_logo
@@ -73,13 +73,20 @@
                     margin-left: 0px
 
 @media (max-width: 767px)
-    .menu
-        position: fixed
-        justify-content: space-between
-        flex-direction: column
-        top: 0
-        right: 0
-        width: 50%
-        height: 100vh //100% видимого экрана
-        padding: 20px 15px
-        background-color: rgba(0,0,0, .8)
+    header
+        nav
+            .menu
+                position: fixed
+                justify-content: space-between
+                flex-direction: column
+                top: 0
+                right: 0
+                width: 50%
+                height: 100vh //100% видимого экрана
+                padding: 20px 15px
+                background-color: rgba(0,0,0, .8)
+                &_item
+                    padding-right: 0px
+                    border: none
+                &_link
+                    font-size: 20px
