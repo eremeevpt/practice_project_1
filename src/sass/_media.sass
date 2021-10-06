@@ -83,16 +83,20 @@
         nav
             .menu
                 position: fixed
-                justify-content: space-between
                 flex-direction: column
+                justify-content: center
+                align-items: center
                 top: 0
                 right: 0
                 width: 50%
-                height: 100vh //100% видимого экрана
+                height: 115vh //100% видимого экрана
                 padding: 20px 15px
                 background-color: rgba(0,0,0, .8)
                 &_item
                     padding-right: 0px
                     border: none
+                    margin-top: 40px
+                    &:first-child
+                        margin-top: 0px
                 &_link
                     font-size: 20px
