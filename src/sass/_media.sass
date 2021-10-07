@@ -86,15 +86,16 @@
                 flex-direction: column
                 justify-content: center
                 align-items: center
+                z-index: 1
                 top: 0
-                right: -100%
+                left: -100%
                 width: 50%
                 height: 115vh //100% видимого экрана
                 padding: 20px 15px
                 background-color: rgba(0,0,0, .8)
                 transition: 0.6s
                 &_active
-                    right: 0
+                    left: 0
                 &_item
                     padding-right: 0px
                     border: none
@@ -147,6 +148,9 @@
 
 @media (max-width: 575px)
     header
+        nav
+            .menu
+                width: 85%
         .subheader
             height: 60px
             &_official
