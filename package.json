@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/eremeevpt/practice_project_1/issues"
   },
-  "homepage": "https://github.com/eremeevpt/practice_project_1#readme"
+  "homepage": "https://github.com/eremeevpt/practice_project_1#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
