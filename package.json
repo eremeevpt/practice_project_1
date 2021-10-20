@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/eremeevpt/practice_project_1#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
-  }
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0"
+  },
+  "dependencies": {}
 }
